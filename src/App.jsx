@@ -5,7 +5,7 @@ import ProdukDetail from "./components/ProdukDetail";
 function App() {
   return (
     <>
-      <Router>
+      <Router basename="/EShop">
         <Routes>
           <Route path="/" element={<Login />} />
           <Route path="/products" element={<ProdukLists />} />
